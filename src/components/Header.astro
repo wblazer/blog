@@ -14,7 +14,7 @@ import { SITE_TITLE } from "../consts";
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
   }
   h1 {
     font-size: 2em;
@@ -29,13 +29,22 @@ import { SITE_TITLE } from "../consts";
   }
   nav {
     display: flex;
-    gap: 1em;
+    flex-wrap: wrap;
+    gap: 0 0.5em;
   }
   nav a {
-    color: var(--foreground);
+    color: var(--link);
     text-decoration: none;
   }
   nav a:hover {
     text-decoration: underline;
+  }
+  @media (max-width: 540px) {
+    header {
+      display: block;
+    }
+    nav {
+      margin-top: 0.25em;
+    }
   }
 </style>
