@@ -1,0 +1,65 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import { SITE_TITLE } from "../consts";
+
+const notes = (await getCollection("notes")).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const renderedNotes = await Promise.all(
+  notes.map(async (note) => ({
+    note,
+    Content: (await render(note)).Content,
+  }))
+);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Notes | ${SITE_TITLE}`} description="Notes and short thoughts" />
+  </head>
+  <body>
+    <main>
+      <Header />
+      <h1>Notes</h1>
+      {
+        renderedNotes.map(({ note, Content }) => (
+          <article class="note">
+            <h3 class="note-date">
+              <FormattedDate date={note.data.date} />
+            </h3>
+            <div class="note-content">
+              <Content />
+            </div>
+          </article>
+        ))
+      }
+    </main>
+  </body>
+</html>
+
+<style>
+  h1 {
+    margin-bottom: 2em;
+    font-size: 1.5em;
+  }
+  .note {
+    margin-bottom: 3em;
+  }
+  .note-date {
+    color: var(--gray);
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 0.75em;
+  }
+  .note-content {
+    line-height: 1.6;
+  }
+  .note-content p {
+    margin-bottom: 1em;
+  }
+</style>
