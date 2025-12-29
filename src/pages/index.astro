@@ -2,12 +2,9 @@
 import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
-import FormattedDate from "../components/FormattedDate.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
-const posts = (await getCollection("posts")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>
@@ -18,18 +15,15 @@ const posts = (await getCollection("posts")).sort(
   <body>
     <main>
       <Header />
-      <p>
-        Your intro text here. Replace this with whatever you want to say about yourself.
-      </p>
-
+      <p>Hello! I'm a software engineer living in Lincoln, NE. My interests revolve around AI, philosophy, ethics, longevity, fitness, and various other things related to computers and software. I also enjoy climbing, video games, and reading.</p>
+      <p>I tend to strive for excellence. However, in the past I haven't used that tendency very efficiently. I spent most of my free time in college playing competitive Counter Strike. I have also been spending lots of time developing taste by consuming content, but not creating anything with all of that inspiration. I'm working on changing that (e.g. this website).</p>
+      <p>Feel free to <a href="https://x.com/wblazer_" target="_blank">message me</a> if you find anything on here interesting or valuable.</p>
       <h2>Posts</h2>
       <ul class="post-list">
         {
           posts.map((post) => (
             <li>
-              <a href={`/${post.id}`}>
-                {post.data.title}
-              </a>
+              <a href={`/${post.id}`}>{post.data.title}</a>
             </li>
           ))
         }
