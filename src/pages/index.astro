@@ -19,15 +19,16 @@ const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.value
       <p>I tend to strive for excellence. However, in the past I haven't used that tendency very efficiently. I spent most of my free time in college playing competitive Counter Strike. I have also been spending lots of time developing taste by consuming content, but not creating anything with all of that inspiration. I'm working on changing that (e.g. this website).</p>
       <p>Feel free to <a href="https://x.com/wblazer_" target="_blank">message me</a> if you find anything on here interesting or valuable.</p>
       <h2>Posts</h2>
-      <ul class="post-list">
-        {
-          posts.map((post) => (
-            <li>
-              <a href={`/${post.id}`}>{post.data.title}</a>
-            </li>
-          ))
-        }
-      </ul>
+      <p>Coming soon...</p>
+      <!-- <ul class="post-list"> -->
+      <!-- { -->
+      <!-- posts.map((post) => ( -->
+      <!-- <li> -->
+      <!-- <a href={`/${post.id}`}>{post.data.title}</a> -->
+      <!-- </li> -->
+      <!-- )) -->
+      <!-- } -->
+      <!-- </ul> -->
     </main>
   </body>
 </html>
