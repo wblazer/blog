@@ -19,7 +19,7 @@ I think personal websites can serve as a fantastic source of discovery, particul
 
 [LudwigAbap](https://ludwigabap.com/writings): Great jumping off point for programming related reading. [This post](https://ludwigabap.com/posts/on-becoming-competitive-when-joining-a-new-company/) on becoming competitive when joining a new company may prove useful for your career
 
-[RegisterSpill](https://registerspill.thorstenball.com/): Thorsten Ball posts a weekly "Joy & Curiousity", containing interesting and joyful things from the previous week. Feels like the gems you might find by sifting through tech twitter and Hacker News but without the sifting
+[RegisterSpill](https://registerspill.thorstenball.com/): Thorsten Ball posts a weekly "Joy & Curiosity", containing interesting and joyful things from the previous week. Feels like the gems you might find by sifting through tech twitter and Hacker News but without the sifting
 
 [Benthams Bulldog](https://benthams.substack.com/): Blog on "utilitarianism, ethical veganism, culture war stuff, philosophy, morality, and more!". Some that I think you should read:
 - [A Million Is Made Out Of A Million Ones](https://benthams.substack.com/p/a-million-is-made-out-of-a-million)
