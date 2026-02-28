@@ -1,5 +1,5 @@
 :root {
-  --background: #f9f5d7;
+  --background: #faf7e1;
   --foreground: #282828;
   --link: #076678;
   --accent: #af3a03;
@@ -31,6 +31,15 @@ body {
   color: var(--foreground);
   font-size: 16px;
   line-height: 1.65;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.12;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 main {
   width: 620px;
