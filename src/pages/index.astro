@@ -1,10 +1,10 @@
 ---
-import { getCollection } from "astro:content";
+// import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
-const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+// const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>
@@ -15,7 +15,7 @@ const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.value
   <body>
     <main>
       <Header />
-      <p>Hello! I'm a software engineer living in Lincoln, NE. My interests revolve around AI, moral philosophy, meditation, longevity, fitness, and various other things related to computers and software. I also enjoy climbing, video games, and reading.</p>
+      <p>Hello! I'm a software engineer interested in effective altruism, rationalism, meditation, and moral philosophy.</p>
       <p>Life is a dance of consumption and creation. People consume information, mash it all together, arrange it in new ways, and (ideally) create things with that inspiration. I have the bad habit of skipping the creation part. I think many people are the same. This website is part of my effort to tip the scale in my life more towards creation.</p>
       <p>Feel free to <a href="https://x.com/wblazer_" target="_blank">message me</a> if you find anything on here interesting or valuable.</p>
       <!-- <h2>Posts</h2> -->
