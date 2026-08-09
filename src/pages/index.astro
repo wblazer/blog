@@ -1,10 +1,7 @@
 ---
-// import { getCollection } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
-
-// const posts = (await getCollection("posts")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>
@@ -15,20 +12,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
   <body>
     <main>
       <Header />
-      <p>Hello! I'm a software engineer interested in effective altruism, rationalism, meditation, and moral philosophy.</p>
-      <p>Life is a dance of consumption and creation. People consume information, mash it all together, arrange it in new ways, and (ideally) create things with that inspiration. I have the bad habit of skipping the creation part. I think many people are the same. This website is part of my effort to tip the scale in my life more towards creation.</p>
-      <p>Feel free to <a href="https://x.com/wblazer_" target="_blank">message me</a> if you find anything on here interesting or valuable.</p>
-      <!-- <h2>Posts</h2> -->
-      <!-- <p>Coming soon...</p> -->
-      <!-- <ul class="post-list"> -->
-      <!-- { -->
-      <!-- posts.map((post) => ( -->
-      <!-- <li> -->
-      <!-- <a href={`/${post.id}`}>{post.data.title}</a> -->
-      <!-- </li> -->
-      <!-- )) -->
-      <!-- } -->
-      <!-- </ul> -->
+      <p>Hello! I'm a software engineer interested in effective altruism, rationalism, meditation, and moral philosophy. I currently live in Nebraska and work on software to help golf courses manage turfgrass more efficiently.</p>
+      <p>I want to do as much as I can to make the future go well. I'm particularly concerned about factory farming, wild animal suffering, and AI safety. I am seeking opportunities to work on these problems directly and am eager to relocate.</p>
+      <p>I'm also a member of <a href="https://www.givingwhatwecan.org/" target="_blank">Giving What We Can</a> and have pledged to donate at least 10% of my income to effective charities. <a href="https://benthams.substack.com/p/a-life-that-cannot-be-a-failure" target="_blank">You should consider doing the same!</a></p>
     </main>
   </body>
 </html>

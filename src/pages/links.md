@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/Page.astro
-title: "Recommendations"
-description: "things I constantly recommend"
+title: "Links"
+description: "list of links"
 ---
 
-I think personal websites can serve as a fantastic source of discovery, particularly when they link to other websites also linking elsewhere. So here is my list of links, mostly of things that I already tend to recommend to friends often.
+I think personal websites can serve as a fantastic source of discovery when they link to other interesting websites (that may also link elsewhere). So here is my list of links, mostly of things that I already tend to share to friends often.
 
 ## Blogs/Personal Websites
 
@@ -15,12 +15,12 @@ I think personal websites can serve as a fantastic source of discovery, particul
 - [try a thing some time](https://near.blog/try-a-thing-some-time/)
 - [where are the builders](https://near.blog/where-are-the-builders/)
 
-[Nadia Asparouhova](https://nadia.xyz/): Also inspiration for this website. Worth the link if only for her [post on the jhanas](https://nadia.xyz/jhanas)
+[Nadia Asparouhova](https://nadia.xyz/): Also inspiration for this website. Check out her [post which introduced me to the jhanas](https://nadia.xyz/jhanas).
 
-[LudwigAbap](https://ludwigabap.com/writings): Great jumping off point for programming related reading. [This post](https://ludwigabap.com/posts/on-becoming-competitive-when-joining-a-new-company/) on becoming competitive when joining a new company may prove useful for your career
+[LudwigAbap](https://ludwigabap.com/writings): Great jumping off point for programming related reading. [This post](https://ludwigabap.com/posts/on-becoming-competitive-when-joining-a-new-company/) on becoming competitive when joining a new company may prove useful for your career.
 
-[RegisterSpill](https://registerspill.thorstenball.com/): Thorsten Ball posts a weekly "Joy & Curiosity", containing interesting and joyful things from the previous week. Feels like the gems you might find by sifting through tech twitter and Hacker News but without the sifting
-
+[RegisterSpill](https://registerspill.thorstenball.com/): Thorsten Ball posts a weekly "Joy & Curiosity", containing interesting and joyful things from the previous week. Feels like the gems you might find by sifting through tech twitter and Hacker News but without the sifting.
+.
 [Benthams Bulldog](https://benthams.substack.com/): Blog on "utilitarianism, ethical veganism, culture war stuff, philosophy, morality, and more!". Some that I think you should read:
 - [A Million Is Made Out Of A Million Ones](https://benthams.substack.com/p/a-million-is-made-out-of-a-million)
 - [The Best Thing You Can Do](https://benthams.substack.com/p/a-life-that-cannot-be-a-failure)
