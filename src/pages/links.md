@@ -6,7 +6,7 @@ description: "list of links"
 
 I think personal websites can serve as a fantastic source of discovery when they link to other interesting websites (that may also link elsewhere). So here is my list of links, mostly of things that I already tend to share to friends often.
 
-## Blogs/Personal Websites
+### Blogs/Personal Websites
 
 [near.blog](https://near.blog/): A huge inspiration for making this website. Has his own [links page](https://near.blog/links/) full of incredibly high quality blog posts. Some of my favorite posts:
 - [personality basins](https://near.blog/personality-basins/)
@@ -32,7 +32,7 @@ Some standalone posts:
 - [A general case for veganism](https://morallawwithin.substack.com/p/a-general-case-for-veganism)
 - [95%-ile isn't that good](https://danluu.com/p95-skill/)
 
-## Tools
+### Tools
 
 Tools I use and highly recommend, primarily for software development:
 - [Helix](https://helix-editor.com/): very tastefully made modal editor (like vim) with a selection-first model (selection -> action rather than vim's action -> selection). Supports multiple cursors, has fantastic defaults (other than the theme), has LSP support out of the box, and has a plugin system coming soon.
